@@ -10,9 +10,10 @@ if ! which tdd >/dev/null; then
   git clone git://github.com/lchanmann/tdd.git
   sudo mv tdd /opt
 
-  cd /opt/tdd/subject
+  cd /opt/tdd
   # install rvm
   bash ./rvm_install.bash
+  cd subject
   bundle install
 
   # symbolink tdd command
