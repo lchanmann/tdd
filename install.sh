@@ -10,7 +10,7 @@ if ! which tdd >/dev/null; then
   git clone git://github.com/lchanmann/tdd.git
   sudo mv tdd /opt
 
-  cd /opt/tdd
+  cd /opt/tdd/subject
   # install rvm
   bash ./rvm_install.bash
   bundle install
