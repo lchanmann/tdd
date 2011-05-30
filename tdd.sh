@@ -21,7 +21,7 @@ describe $subject_name do
 end" > spec/${subject}_spec.rb
 }
 
-tdd_dir=/opt/tdd
+tdd_dir=/opt/tdd/subject
 subject="$1"
 subject_name=${subject[@]^}
 

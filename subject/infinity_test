@@ -1,0 +1,11 @@
+infinity_test do
+  use :test_framework => :rspec, :rubies => %w(1.9.2@tdd), :verbose => true
+
+  notifications :lib_notify do
+    show_images :mode => :hands
+  end
+
+  before_run do
+    clear :terminal
+  end
+end
