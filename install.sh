@@ -3,7 +3,7 @@
 if ! which tdd >/dev/null; then
   # install dependencies
   sudo apt-get update
-  sudo apt-get -y install libnotify-bin
+  sudo apt-get -y install git libnotify-bin
   sudo apt-get upgrade
 
   # clone environment
